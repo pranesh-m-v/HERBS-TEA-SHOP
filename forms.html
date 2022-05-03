@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body id="forms">
+	<form action="thanks.html" method="post">
+		<h3 id="h">Lucky Customer Of The Month</h3>
+		<p>Share your favorite product of ours,
+		<br> Get a chance to win your favorite</p>
+		<label>NAME *</label>
+		<br>
+		<input type="text" name="name" id="box" required>
+		<br>
+		<br>
+		<label>EMAIL ADDRESS *</label>
+		<br>
+		<input type="email" name="email" id="box" required 
+			   pattern="([a-zA-Z0-9._+%-]+@[a-z]+\.[a-z]{3})||([a-z0-9._+%-]+@[a-z.-]+\.[a-z]+\.[a-z]{2})$">
+		<br>
+		<br>
+		<label>FAVORITE PRODUCT *</label>
+		<br>
+		<input type="text" name="message" id="box1" required>
+		<br>
+		<br>
+		<button id="submit">Submit Your Favorite</button>	
+	</form>
+</body>
+</html>
